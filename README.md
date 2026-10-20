@@ -1,5 +1,7 @@
 # NativeAES
 
-Native AES accelerator driver.
+Native AES accelerator driver with the original Apple AES ABI.
 
-Maintained as an independent module and included by [UniXNU](https://github.com/UniXNU/UniXNU) at `drivers/NativeAES`.
+Current state: built into the kernel and used by the sheng crypto path.
+
+Linked into XNU by `unixnu build kernel`.
